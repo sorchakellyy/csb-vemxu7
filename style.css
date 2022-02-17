@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Monserrat", sans-serif;
+}
+.hero {
+  height: 100vh;
+  background-image: url("/images/"");
+  background-size: cover;
+  color white;
+}
+
+.fl-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.fl-centerh{
+  justify-content: center;
+}
+.flcenterv{
+  align-items: center;
+}
+h1{ 
+  font-weight: 100;
+  font-size: 4em;
+  border: 1px;
+  border-color: white;
+  border-style: solid;
+  width: 600px;
+  height: 50px;
+padding: 50px;
+}
+.works{
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.worksimg{
+  width: 100%;
+}
+.works figure{
+  width: 45%;
+  margin-bottom: 50px;
+}
